@@ -1,0 +1,5 @@
+---
+- hosts: domain
+  roles:
+  - geerlingguy.php
+  
