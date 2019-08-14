@@ -1,7 +1,6 @@
 ---
 - hosts: domain
   roles:
-  - geerlingguy.apache
+  - geerlingguy.nginx
   - geerlingguy.mysql
-  - geerlingguy.php-mysql
-  - geerlingguy.phpmyadmin
+  
